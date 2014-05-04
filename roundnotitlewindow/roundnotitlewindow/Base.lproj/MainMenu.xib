@@ -17,6 +17,7 @@
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <viewController id="8F6-sG-565" customClass="MyViewController"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="roundnotitlewindow" id="1Xt-HY-uBw">
@@ -673,6 +674,19 @@
             <view key="contentView" id="EiT-Mj-1SZ" customClass="RoundRectView">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLQ-b2-zzl">
+                        <rect key="frame" x="371" y="23" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Lho-Hh-L6g">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="doQuit:" target="8F6-sG-565" id="psV-db-4RN"/>
+                        </connections>
+                    </button>
+                </subviews>
             </view>
         </window>
     </objects>

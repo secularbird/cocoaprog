@@ -20,6 +20,7 @@
 		7DAA7FD8190CB4E500909879 /* roundnotitlewindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA7FD7190CB4E500909879 /* roundnotitlewindowTests.m */; };
 		7DAA7FE3190CB55600909879 /* RoundRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA7FE2190CB55600909879 /* RoundRectView.m */; };
 		7DAA7FE6190CB5C100909879 /* DrawWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA7FE5190CB5C100909879 /* DrawWindow.m */; };
+		7DAA80511916213800909879 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA80501916213800909879 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		7DAA7FE2190CB55600909879 /* RoundRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRectView.m; sourceTree = "<group>"; };
 		7DAA7FE4190CB5C100909879 /* DrawWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawWindow.h; sourceTree = "<group>"; };
 		7DAA7FE5190CB5C100909879 /* DrawWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawWindow.m; sourceTree = "<group>"; };
+		7DAA804F1916213800909879 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		7DAA80501916213800909879 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				7DAA7FE5190CB5C100909879 /* DrawWindow.m */,
 				7DAA7FE1190CB55600909879 /* RoundRectView.h */,
 				7DAA7FE2190CB55600909879 /* RoundRectView.m */,
+				7DAA804F1916213800909879 /* MyViewController.h */,
+				7DAA80501916213800909879 /* MyViewController.m */,
 				7DAA7FC2190CB4E500909879 /* MainMenu.xib */,
 				7DAA7FC5190CB4E500909879 /* Images.xcassets */,
 				7DAA7FB4190CB4E500909879 /* Supporting Files */,
@@ -266,6 +271,7 @@
 				7DAA7FE6190CB5C100909879 /* DrawWindow.m in Sources */,
 				7DAA7FC1190CB4E500909879 /* AppDelegate.m in Sources */,
 				7DAA7FBA190CB4E500909879 /* main.m in Sources */,
+				7DAA80511916213800909879 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +484,7 @@
 				7DAA7FDD190CB4E500909879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DAA7FDE190CB4E500909879 /* Build configuration list for PBXNativeTarget "roundnotitlewindowTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				7DAA7FE0190CB4E500909879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
