@@ -30,7 +30,7 @@
     // Drawing code here.
     NSBezierPath* roundRectPath = [NSBezierPath bezierPath];
     [roundRectPath appendBezierPathWithRoundedRect:self.bounds xRadius:10 yRadius:10];
-    [[NSColor blackColor] setFill];
+    [[NSColor grayColor] setFill];
     [roundRectPath fill];
 
 }
